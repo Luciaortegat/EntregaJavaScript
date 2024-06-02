@@ -1,0 +1,200 @@
+body{
+    margin: 0%;
+}
+
+main{
+    min-height: fit-content;
+    width: 100%;
+}
+
+header{
+    background-color: rgb(33, 32, 39);  
+    width: 100%;
+    min-height: 130px ;
+    display: flex !important;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    position:static;
+
+}
+header .logo{
+    font-family: Shadows Into Light;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    margin-left: 18px;
+    padding: 15px;
+}
+
+.tienda {
+    background-color: rgb(33, 32, 39);
+    display: flex;
+    flex-direction: column;
+   
+}
+.tituloTienda{
+    font-size: 30px;
+    font-family: Amatic SC;
+    background-color: rgb(33, 32, 39);
+    color: rgba(243, 238, 238, 0.865);
+    margin-bottom: 0%;
+    text-align: left;
+    padding: 0px 30px;
+    max-width: 100%;
+}
+
+#productosTienda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: rgba(243, 238, 238, 0.60);
+    border-radius: 12px;
+    padding: 20px;
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+
+}
+
+.img{
+    width: 250px;
+    height: 250px;
+    object-fit:cover;
+    border-radius: 12px;
+}
+
+.nombre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.precio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.comprar{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(238, 241, 247, 0.5);
+    color:rgb(3, 2, 5);
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 20px;
+    width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton-carrito{
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color:rgb(3, 2, 5);
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 20px;
+    width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ventana-carrito{
+    width: 80%;
+    margin: 0 10%;
+    background-color: rgb(238, 241, 247, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px black;
+    margin-bottom: 30px;
+}
+
+.titulo-carrito{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(238, 241, 247, 0.5);
+    text-align: center;
+    width: 100%;
+}
+
+.titulo-carrito h1{
+    font-size: 25px;
+    color: rgb(3, 2, 5);
+    padding: 8px;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-carrito-button{
+    width: 50px;
+    font-size: 25px;
+}
+
+.contenido-carrito{
+    background-color: rgba(243, 238, 238, 0.60);
+    border-radius: 12px;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px;
+    align-items: center;
+}
+
+.contenido-carrito img{
+    width: 100px;
+    height: 100px;
+    object-fit:cover;
+    border-radius: 12px;
+    margin-right: 40px;
+}
+
+.contenido-carrito h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.contenido-carrito p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.total-compra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(243, 238, 238, 0.60);
+    font-size: 25px;
+    color: rgb(3, 2, 5);
+    padding: 8px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.eliminar-producto{
+    margin-left: 30px;
+}
+
+.finalizar-compra{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color:rgb(3, 2, 5);
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 20px;
+    width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+}
